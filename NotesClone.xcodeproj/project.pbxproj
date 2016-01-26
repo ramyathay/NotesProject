@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		D2DF4D171C56C6A600D3094B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF4D161C56C6A600D3094B /* AppDelegate.swift */; };
-		D2DF4D191C56C6A600D3094B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF4D181C56C6A600D3094B /* ViewController.swift */; };
+		D2DF4D191C56C6A600D3094B /* NotesCloneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF4D181C56C6A600D3094B /* NotesCloneViewController.swift */; };
 		D2DF4D1C1C56C6A600D3094B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DF4D1A1C56C6A600D3094B /* Main.storyboard */; };
 		D2DF4D1E1C56C6A600D3094B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DF4D1D1C56C6A600D3094B /* Assets.xcassets */; };
 		D2DF4D211C56C6A600D3094B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DF4D1F1C56C6A600D3094B /* LaunchScreen.storyboard */; };
+		D2DF4D291C56C89000D3094B /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF4D281C56C89000D3094B /* Notes.swift */; };
+		D2DF4D2B1C56CB0A00D3094B /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF4D2A1C56CB0A00D3094B /* Database.swift */; };
+		D2DF4D2D1C56CFE400D3094B /* HandleNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF4D2C1C56CFE400D3094B /* HandleNotesViewController.swift */; };
+		D2DF4D2F1C56D4CE00D3094B /* BackButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF4D2E1C56D4CE00D3094B /* BackButtonDelegate.swift */; };
+		D2DF4D311C56D75B00D3094B /* HandleNotesDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF4D301C56D75B00D3094B /* HandleNotesDelegate.swift */; };
+		D2DF4D351C56E89600D3094B /* NotesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DF4D341C56E89600D3094B /* NotesCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D2DF4D131C56C6A600D3094B /* NotesClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DF4D161C56C6A600D3094B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D2DF4D181C56C6A600D3094B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2DF4D181C56C6A600D3094B /* NotesCloneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesCloneViewController.swift; sourceTree = "<group>"; };
 		D2DF4D1B1C56C6A600D3094B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2DF4D1D1C56C6A600D3094B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2DF4D201C56C6A600D3094B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2DF4D221C56C6A600D3094B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DF4D281C56C89000D3094B /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		D2DF4D2A1C56CB0A00D3094B /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Database.swift; path = ../../BucketList/BucketList/Database.swift; sourceTree = "<group>"; };
+		D2DF4D2C1C56CFE400D3094B /* HandleNotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandleNotesViewController.swift; sourceTree = "<group>"; };
+		D2DF4D2E1C56D4CE00D3094B /* BackButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButtonDelegate.swift; sourceTree = "<group>"; };
+		D2DF4D301C56D75B00D3094B /* HandleNotesDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandleNotesDelegate.swift; sourceTree = "<group>"; };
+		D2DF4D341C56E89600D3094B /* NotesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotesCell.swift; path = ../NotesCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				D2DF4D161C56C6A600D3094B /* AppDelegate.swift */,
-				D2DF4D181C56C6A600D3094B /* ViewController.swift */,
+				D2DF4D181C56C6A600D3094B /* NotesCloneViewController.swift */,
+				D2DF4D341C56E89600D3094B /* NotesCell.swift */,
+				D2DF4D2E1C56D4CE00D3094B /* BackButtonDelegate.swift */,
+				D2DF4D281C56C89000D3094B /* Notes.swift */,
+				D2DF4D2A1C56CB0A00D3094B /* Database.swift */,
 				D2DF4D1A1C56C6A600D3094B /* Main.storyboard */,
+				D2DF4D301C56D75B00D3094B /* HandleNotesDelegate.swift */,
+				D2DF4D2C1C56CFE400D3094B /* HandleNotesViewController.swift */,
 				D2DF4D1D1C56C6A600D3094B /* Assets.xcassets */,
 				D2DF4D1F1C56C6A600D3094B /* LaunchScreen.storyboard */,
 				D2DF4D221C56C6A600D3094B /* Info.plist */,
@@ -136,8 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2DF4D191C56C6A600D3094B /* ViewController.swift in Sources */,
+				D2DF4D191C56C6A600D3094B /* NotesCloneViewController.swift in Sources */,
+				D2DF4D2D1C56CFE400D3094B /* HandleNotesViewController.swift in Sources */,
 				D2DF4D171C56C6A600D3094B /* AppDelegate.swift in Sources */,
+				D2DF4D351C56E89600D3094B /* NotesCell.swift in Sources */,
+				D2DF4D2F1C56D4CE00D3094B /* BackButtonDelegate.swift in Sources */,
+				D2DF4D2B1C56CB0A00D3094B /* Database.swift in Sources */,
+				D2DF4D291C56C89000D3094B /* Notes.swift in Sources */,
+				D2DF4D311C56D75B00D3094B /* HandleNotesDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +311,7 @@
 				D2DF4D271C56C6A600D3094B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
